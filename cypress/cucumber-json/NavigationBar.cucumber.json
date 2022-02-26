@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigation bar",
+    "line": 2,
+    "id": "navigation-bar",
+    "tags": [],
+    "uri": "NavigationBar.feature",
+    "elements": [
+      {
+        "id": "navigation-bar;find-all-autos-from-nagationbar",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Find all autos from NagationBar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "As user given i am in home page for InstaMotion DeskTop Orientation",
+            "result": {
+              "status": "passed",
+              "duration": 7598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on all autos in navigation bar",
+            "result": {
+              "status": "passed",
+              "duration": 12831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should redirected to all autos page",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-bar;favorerts-autos-from-nagationbar",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Favorerts autos from NagationBar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "As user given want to navigate to Favortes",
+            "result": {
+              "status": "passed",
+              "duration": 6482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on Favoriten from navigate bar",
+            "result": {
+              "status": "passed",
+              "duration": 7504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should redirected to Favoriten page",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-bar;how-it-works-from-nagationbar",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "How it works from NagationBar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "As user given want to navigate to So funktionierts",
+            "result": {
+              "status": "passed",
+              "duration": 7577000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click on So funktionierts from navigate bar",
+            "result": {
+              "status": "passed",
+              "duration": 7907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should redirected to So funktionierts page",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-bar;top-deals-from-nagationbar",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Top deals from NagationBar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "As user given want to navigate to top deals",
+            "result": {
+              "status": "passed",
+              "duration": 6608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on Topangebote from navigate bar",
+            "result": {
+              "status": "passed",
+              "duration": 8100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should redirected to So Topangebote page",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

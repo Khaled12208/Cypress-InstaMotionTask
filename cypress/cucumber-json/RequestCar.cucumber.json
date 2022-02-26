@@ -1,0 +1,53 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Request Car",
+    "line": 1,
+    "id": "request-car",
+    "tags": [],
+    "uri": "RequestCar.feature",
+    "elements": [
+      {
+        "id": "request-car;request-car-happy-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Request Car Happy Scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "As user given i am in all atuos page and request car",
+            "result": {
+              "status": "passed",
+              "duration": 16278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select any car",
+            "result": {
+              "status": "passed",
+              "duration": 691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should redirected to the care page and i can request car by click on Anfrage starten",
+            "result": {
+              "status": "failed",
+              "duration": 10353000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<button.sc-dnqmqq.eDqzGW>' to have class 'active'\n    at AutosPageActions.clickRequestCar (https://www.instamotion.com/__cypress/tests?p=cypress\\integration\\BDD\\RequestCar.feature:202:41)\n    at Context.eval (https://www.instamotion.com/__cypress/tests?p=cypress\\integration\\BDD\\RequestCar.feature:428:10)\n    at Context.resolveAndRunStepDefinition (https://www.instamotion.com/__cypress/tests?p=cypress\\integration\\BDD\\RequestCar.feature:7412:29)\n    at Context.eval (https://www.instamotion.com/__cypress/tests?p=cypress\\integration\\BDD\\RequestCar.feature:6733:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

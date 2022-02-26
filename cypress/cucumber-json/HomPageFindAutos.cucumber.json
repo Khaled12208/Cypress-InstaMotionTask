@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Find A Cars",
+    "line": 2,
+    "id": "find-a-cars",
+    "tags": [],
+    "uri": "HomPageFindAutos.feature",
+    "elements": [
+      {
+        "id": "find-a-cars;seach-for-auto-from-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Seach for auto from Home Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "As user in the home page, i want to search for a car",
+            "result": {
+              "status": "passed",
+              "duration": 12383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter car brand \"BMW\", car model \"X6\"",
+            "result": {
+              "status": "passed",
+              "duration": 24528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should redirected to autos page with title \"BMW\"",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "find-a-cars;find-all-cars-button",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Find all cars button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "As user in the home page, i want to find all cars",
+            "result": {
+              "status": "passed",
+              "duration": 6743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I scroll down to button and click on Durchsuche Autos",
+            "result": {
+              "status": "passed",
+              "duration": 1399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should redirected to all autos page",
+            "result": {
+              "status": "passed",
+              "duration": 5548000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

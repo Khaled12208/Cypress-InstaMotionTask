@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Results Filters",
+    "line": 1,
+    "id": "results-filters",
+    "tags": [],
+    "uri": "ResultsFilters.feature",
+    "elements": [
+      {
+        "id": "results-filters;change-the-payment-to-full-payment",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Change the payment to full payment",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "As user given i am in all atuos page and need to change payment to full payment price",
+            "result": {
+              "status": "passed",
+              "duration": 20079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on Kaufpreis in the filters",
+            "result": {
+              "status": "passed",
+              "duration": 1641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The displyment payment should be full payment price",
+            "result": {
+              "status": "passed",
+              "duration": 2837000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "results-filters;filters-avilable-cars-with-brand",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Filters avilable cars with brand",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "As user given i am in all atuos page and need to filters cars with brand",
+            "result": {
+              "status": "passed",
+              "duration": 23612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "look for number of total avilable cars",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I select Brand \"Audi\"",
+            "result": {
+              "status": "passed",
+              "duration": 1792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "look for the number of avilable after filter",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The number of avilable cars after filter should be less than the total number",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

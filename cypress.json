@@ -1,0 +1,15 @@
+{
+    "pageLoadTimeout": 80000,
+    "screenshotOnRunFailure": true,
+    "ignoreTestFiles": "*.ts",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportFilename": "testresults",
+      "overwrite": false,
+      "html": true,
+      "json": true,
+      "charts": true
+    },
+    "chromeWebSecurity": false
+
+}

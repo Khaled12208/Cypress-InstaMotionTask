@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cart Cart",
+    "line": 1,
+    "id": "cart-cart",
+    "tags": [],
+    "uri": "CarCart.feature",
+    "elements": [
+      {
+        "id": "cart-cart;car-cart-pictuers",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Car cart pictuers",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "As user given i am in all atuos page",
+            "result": {
+              "status": "passed",
+              "duration": 27714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see all avilable cars in cart with pics",
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-cart;car-cart-names",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Car cart names",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "As user given i am in all atuos page looking for cars names",
+            "result": {
+              "status": "passed",
+              "duration": 17892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see all avilable cars in cart with name displayed uder pic",
+            "result": {
+              "status": "passed",
+              "duration": 405000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
