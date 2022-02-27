@@ -1,5 +1,5 @@
 
-Feature: Find A Cars
+Feature: Find a car
 
   Scenario: Seach for auto from Home Page
     Given As user in the home page, i want to search for a car

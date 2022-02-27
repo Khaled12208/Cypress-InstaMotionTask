@@ -1,4 +1,4 @@
-Feature: Request Car
+Feature: Request a car
 
   Scenario: Request Car Happy Scenario
     Given As user given i am in all atuos page and request car

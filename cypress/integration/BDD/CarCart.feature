@@ -1,4 +1,4 @@
-Feature: Cart Cart
+Feature: Car Cart
 
   Scenario: Car cart pictuers
     Given As user given i am in all atuos page
